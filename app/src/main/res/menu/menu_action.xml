@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/m_action_op1"
+    android:icon="@drawable/ic_baseline_apps_24"
+    android:title="opcion 1"
+    app:showAsAction="always"/>
+    <item android:id="@+id/m_action_op2"
+        android:icon="@drawable/ic_baseline_drag_indicator_24"
+        android:title="opcion 2"
+        app:showAsAction="always"/>
+    <item android:id="@+id/m_action_op3"
+        android:icon="@drawable/ic_baseline_donut_large_24"
+        android:title="opcion 3"
+        app:showAsAction="ifRoom"/>
+</menu>
